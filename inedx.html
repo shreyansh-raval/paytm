@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        * {
+            font-family: roboto;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            height: 75px;
+            width: 100px;
+            display: flex;
+            margin: auto;
+        }
+
+        .main-div {
+            height: 400px;
+        }
+
+        .help {
+            position: relative;
+            top: -41px;
+            font-size: 10px;
+            right: 13px;
+            text-align: right;
+            color: #00B9F1;
+        }
+
+        .back-arrow {
+            width: 12px;
+            position: absolute;
+            top: 35px;
+            left: 8px;
+        }
+
+        .sec-1 {
+            background-color: #e8f8fd;
+            height: 420px;
+            border-radius: 5px;
+            margin-left: 7px;
+            margin-top: -25px;
+            margin: -25px 10px 0px 10px;
+        }
+
+        .amts-logo {
+            height: 20px;
+            width: 20px;
+            display: flex;
+            margin: auto;
+            padding-top: 5px;
+            border-radius: 15px;
+        }
+
+        .right-arrow {
+            width: 10px;
+            position: relative;
+            top: 2px;
+        }
+
+        .p1 {
+            font-size: 13px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .p2 {
+            font-size: 7px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .boy {
+            width: 15px;
+            display: flex;
+            margin: auto;
+        }
+
+        .sec-1-2 {
+            border-radius: 10px;
+            background-color: white;
+            width: 33px;
+            display: flex;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .p3 {
+            font-size: 10px;
+            text-align: center;
+            padding-right: 4px;
+        }
+
+        .sec-1-3 {
+            display: inline-flex;
+            align-items: center; /* Vertically align items in the center */
+            padding-left: 116px;
+            justify-content: center; /* Center horizontally */
+            gap: 3px;
+        }
+
+        .p4 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .sec-1-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            margin: 20px 45px;
+            padding: 10px;
+            background-color: white;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+        }
+
+        .timer {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            margin-top: 7px;
+        }
+
+        .time-unit {
+            display: inline-block;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        .label {
+            font-size: 7px;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .colon {
+            font-size: 18px;
+            margin-top: -14px;
+            /* margin: 0 5px; */
+        }
+
+        .view-tickets-btn {
+            background-color: #00B9F1;
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            width: 100%;
+        }
+
+        .view-tickets-btn:hover {
+            background-color: #0078a0;
+        }
+
+        .sec-1-5 {
+            width: 260px;
+            margin: 20px 45px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .sec-1-5-6 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .refresh-icon{
+            width: 6px;
+        }
+
+        .bus-icon{
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <!-- <svg class="back-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+        </svg> -->
+        <img class="back-arrow" src="back.png" alt="">
+        <img class="logo" src="Paytm-Logo.wine.png" alt="">
+        <p class="help">Help</p>
+
+        <section class="sec-1">
+            <img class="amts-logo" src="AMTS.png" alt="">
+            <p class="p1"> Paldi  <svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+            </svg> Aditraj </p>
+            <p class="p2">Local • Noc AC • Bus No. 40/1-D</p>
+            <p class="p2">1 Adult Ticket</p>
+            <section class="sec-1-2">
+                <img class="boy" src="boy.png" alt="">
+                <p class="p3">1</p>
+            </section>
+
+            <section class="sec-1-3">
+                <p class="p4">₹20</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" width="100" height="100" preserveAspectRatio="xMidYMid meet" style="width: 20%; height: 9%; margin-top:8px;  transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_62"><rect width="1000" height="1000" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_62)"><g transform="matrix(1,0,0,1,500,502.06201171875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(0.30901700258255005,0.9510565400123596,-0.9510565400123596,0.30901700258255005,0,0)"><path fill="rgb(0,167,49)" fill-opacity="1" d=" M425,0 C425,48.106998443603516 398.81298828125,92.58200073242188 356.74700927734375,115.91999816894531 C377.0889892578125,159.52699279785156 372.1400146484375,210.91600036621094 343.8479919433594,249.83599853515625 C315.54998779296875,288.7650146484375 268.1789855957031,309.3280029296875 220.41400146484375,303.4200134277344 C211.3350067138672,350.6960144042969 177.1439971923828,389.4289855957031 131.36099243164062,404.3030090332031 C85.56800079345703,419.17999267578125 35.13100051879883,407.9289855957031 0,375 C-35.13100051879883,407.9289855957031 -85.56800079345703,419.17999267578125 -131.36099243164062,404.3030090332031 C-177.1439971923828,389.4289855957031 -211.3350067138672,350.6969909667969 -220.41400146484375,303.4200134277344 C-268.1789855957031,309.3280029296875 -315.54998779296875,288.7650146484375 -343.8479919433594,249.83599853515625 C-372.1400146484375,210.91700744628906 -377.0889892578125,159.52699279785156 -356.74700927734375,115.91999816894531 C-398.81298828125,92.58200073242188 -425,48.106998443603516 -425,0 C-425,-48.106998443603516 -398.81298828125,-92.58200073242188 -356.74700927734375,-115.91999816894531 C-377.0889892578125,-159.52699279785156 -372.1400146484375,-210.91600036621094 -343.8479919433594,-249.83599853515625 C-315.54998779296875,-288.7650146484375 -268.1789855957031,-309.3280029296875 -220.41400146484375,-303.4200134277344 C-211.3350067138672,-350.6960144042969 -177.1439971923828,-389.4289855957031 -131.36099243164062,-404.3030090332031 C-85.56800079345703,-419.17999267578125 -35.13100051879883,-407.9289855957031 0,-375 C35.13100051879883,-407.9289855957031 85.56800079345703,-419.17999267578125 131.36099243164062,-404.3030090332031 C177.1439971923828,-389.4289855957031 211.3350067138672,-350.6969909667969 220.41400146484375,-303.4200134277344 C268.1789855957031,-309.3280029296875 315.54998779296875,-288.7650146484375 343.8479919433594,-249.83599853515625 C372.1400146484375,-210.91700744628906 377.0889892578125,-159.52699279785156 356.74700927734375,-115.91999816894531 C398.8139953613281,-92.58200073242188 425,-48.106998443603516 425,0z"></path></g></g><g transform="matrix(1,0,0,1,500.0989990234375,480.6050109863281)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(240,255,243)" stroke-opacity="1" stroke-width="80" d=" M-194.08700561523438,4.070000171661377 C-194.08700561523438,4.070000171661377 -67.58000183105469,130.5780029296875 -67.58000183105469,130.5780029296875 C-67.58000183105469,130.5780029296875 194.08700561523438,-130.5780029296875 194.08700561523438,-130.5780029296875"></path></g></g></g></svg>
+                
+            </section>
+            <p class="p2">TICKET BOOKED SUCCESSFULLY</p>
+            <p class="p2">06 May 2025, 06:00 PM</p>
+
+            <section class="sec-1-4">
+                <p class="p3">Your Ticket is valid for</p>
+                <div class="timer">
+                    <div class="time-unit">
+                        <div class="hours" style="font-size: 20px;">02</div>
+                        <span class="label">HOURS</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-unit">
+                        <div class="minutes" style="font-size: 20px;">00</div>
+                        <span class="label">MINUTES</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-unit">
+                        <div class="seconds" style="font-size: 20px;">00</div>
+                        <span class="label">SECONDS</span>
+                    </div>
+                </div>
+                <button class="view-tickets-btn">View your Tickets</button>
+            </section>
+
+            <section class="sec-1-5">
+                <section class="sec-1-5-6">
+                    <p class="p3" style="font-size: 7px; ">Expected Arrivals</p>
+                    <p class="p3" style="font-size: 7px;">  <img class="refresh-icon" src="refresh.png" alt=""> Auto refreash in 2 mins</p>
+                </section>
+                <img class="bus-icon" src="Paytm_Bus_1653645525.avif" alt="">
+                <p style="font-size: 7px; display: inline-block;"> <span style="font-weight: bold   ;">40/1-D</span> <br> Arriving in 30 min</p>
+            </section>
+            <span style="background-color: #00baf2; width: 100%;  height: 5px; font-size: 1px; display: block; color: #002970;">s</span>
+            <span style="background-color: #002970; width: 100%;  height: 5px; font-size: 1px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;display: block; color: #002970;">s</span>
+
+        </section>
+    </div>
+
+    <script>
+        let timeLeft = 2 * 60 * 60; // 2 hours in seconds
+        const hoursDisplay = document.querySelector('.hours');
+        const minutesDisplay = document.querySelector('.minutes');
+        const secondsDisplay = document.querySelector('.seconds');
+
+        function updateTimer() {
+            if (timeLeft > 0) {
+                timeLeft--;
+            } else {
+                clearInterval(interval);
+                alert('Time is up!');
+                return;
+            }
+
+            const hours = Math.floor(timeLeft / 3600);
+            const minutes = Math.floor((timeLeft % 3600) / 60);
+            const seconds = timeLeft % 60;
+
+            hoursDisplay.textContent = String(hours).padStart(2, '0');
+            minutesDisplay.textContent = String(minutes).padStart(2, '0');
+            secondsDisplay.textContent = String(seconds).padStart(2, '0');
+        }
+
+        const interval = setInterval(updateTimer, 1000);
+        updateTimer(); // Initial call to show the starting time
+    </script>
+</body>
+</html>
