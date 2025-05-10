@@ -7,13 +7,19 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <style>
         * {
-            font-family: roboto;
+            font-family: Inter,sans-serif;
             margin: 0;
             padding: 0;
         }
 
+         /* body {
+            background-image: url(WhatsApp\ Image\ 2025-05-10\ at\ 13.14.07_0e02cdcc1.jpg);
+            background-size: cover;
+            margin-top: 60px;
+        }   */
+
         .logo {
-            height: 75px;
+            height: 65px;
             width: 100px;
             display: flex;
             margin: auto;
@@ -26,22 +32,22 @@
         .help {
             position: relative;
             top: -41px;
-            font-size: 10px;
+            font-size: 14px;
             right: 13px;
             text-align: right;
             color: #00B9F1;
         }
 
         .back-arrow {
-            width: 12px;
+            width: 17px;
             position: absolute;
-            top: 35px;
+            top: 26px;
             left: 8px;
         }
 
         .sec-1 {
             background-color: #e8f8fd;
-            height: 420px;
+            height: 700px;
             border-radius: 5px;
             margin-left: 7px;
             margin-top: -25px;
@@ -49,53 +55,83 @@
         }
 
         .amts-logo {
-            height: 20px;
-            width: 20px;
+            height: 55px;
+            width: 59px;
             display: flex;
             margin: auto;
             padding-top: 5px;
-            border-radius: 15px;
+            border-radius: 35px;
         }
 
         .right-arrow {
-            width: 10px;
+            width: 18px;
             position: relative;
             top: 2px;
         }
 
         .p1 {
-            font-size: 13px;
+            font-size: 22px;
             text-align: center;
             font-weight: 600;
+            margin-top: 17px;
         }
 
         .p2 {
-            font-size: 7px;
+            font-size: 13px;
             margin-top: 10px;
+            text-align: center;
+        }
+
+        .p2-1 {
+            font-size: 13.6px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .p2-2 {
+            font-size: 11.7px;
+            margin-top: 26px;
             text-align: center;
         }
 
         .boy {
-            width: 15px;
+            width: 39px;
             display: flex;
             margin: auto;
+            top: 8px;
+            left: -6px;
+            position: relative;
         }
 
         .sec-1-2 {
-            border-radius: 10px;
+            border-radius: 24px;
             background-color: white;
-            width: 33px;
+            width: 73px;
+            height: 45px;
             display: flex;
             margin: auto;
-            margin-top: 10px;
+            margin-top: 12px;
+            overflow: hidden;
+            border: 1px solid #d3d3d3;
         }
 
         .p3 {
-            font-size: 10px;
+            font-size: 13.6px;
             text-align: center;
             padding-right: 4px;
+            top: -5px;
+            position: relative;
         }
-
+       
+        .p3-1 {
+            font-size: 22px;
+            text-align: center;
+            padding-right: 4px;
+            position: relative;
+            top: 10px;
+            right: 13px;
+            font-weight: 600;
+        }
         .sec-1-3 {
             display: inline-flex;
             align-items: center; /* Vertically align items in the center */
@@ -105,9 +141,12 @@
         }
 
         .p4 {
-            font-size: 25px;
+            font-size: 42px;
             font-weight: bold;
             margin-top: 8px;
+            right: 18px;
+            top: 7px;
+            position: relative;
         }
 
         .sec-1-4 {
@@ -115,11 +154,11 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 260px;
-            margin: 20px 45px;
+            width: 326px;
+            height: 169px;
+            margin: 40px 15px;
             padding: 10px;
             background-color: white;
-            font-family: Arial, sans-serif;
             border-radius: 5px;
         }
 
@@ -140,27 +179,32 @@
         }
 
         .label {
-            font-size: 7px;
+            font-size: 9px;
+            position: relative;
             margin-top: 5px;
             display: block;
         }
 
         .colon {
-            font-size: 18px;
-            margin-top: -14px;
-            /* margin: 0 5px; */
+            font-size: 32px;
+            margin-top: -11px;
+            position: relative;
+            left: -5px;
         }
 
         .view-tickets-btn {
             background-color: #00B9F1;
             color: white;
             padding: 10px 20px;
-            font-size: 14px;
+            font-size: 16px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-align: center;
             width: 100%;
+            height: 50px;
+            position: relative;
+            top: 5px;
         }
 
         .view-tickets-btn:hover {
@@ -168,11 +212,15 @@
         }
 
         .sec-1-5 {
-            width: 260px;
-            margin: 20px 45px;
+            width: 326px;
+            height: 68px;
+            margin: 40px 15px;
             padding: 10px;
             background-color: white;
             border-radius: 5px;
+            /* border: 1px solid red;    */
+            position: relative;
+            top: -30px;
         }
 
         .sec-1-5-6 {
@@ -181,11 +229,26 @@
         }
 
         .refresh-icon{
-            width: 6px;
+            width: 10px;
+            top: 1px;
+            left: -1px;
+            position: relative;
         }
 
         .bus-icon{
-            width: 20px;
+            width: 30px;
+            position: relative;
+            top: 22px;
+        }
+
+        .svg-tick {
+            width: 30%;
+            height: 9%;
+            margin-top: 16px;
+            left: -13px;
+            position: relative;
+            transform: translate3d(0px, 0px, 0px);
+            content-visibility: visible;
         }
     </style>
 </head>
@@ -207,32 +270,32 @@
             <p class="p2">1 Adult Ticket</p>
             <section class="sec-1-2">
                 <img class="boy" src="boy.png" alt="">
-                <p class="p3">1</p>
+                <p class="p3-1">1</p>
             </section>
 
             <section class="sec-1-3">
                 <p class="p4">₹20</p>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" width="100" height="100" preserveAspectRatio="xMidYMid meet" style="width: 20%; height: 9%; margin-top:8px;  transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_62"><rect width="1000" height="1000" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_62)"><g transform="matrix(1,0,0,1,500,502.06201171875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(0.30901700258255005,0.9510565400123596,-0.9510565400123596,0.30901700258255005,0,0)"><path fill="rgb(0,167,49)" fill-opacity="1" d=" M425,0 C425,48.106998443603516 398.81298828125,92.58200073242188 356.74700927734375,115.91999816894531 C377.0889892578125,159.52699279785156 372.1400146484375,210.91600036621094 343.8479919433594,249.83599853515625 C315.54998779296875,288.7650146484375 268.1789855957031,309.3280029296875 220.41400146484375,303.4200134277344 C211.3350067138672,350.6960144042969 177.1439971923828,389.4289855957031 131.36099243164062,404.3030090332031 C85.56800079345703,419.17999267578125 35.13100051879883,407.9289855957031 0,375 C-35.13100051879883,407.9289855957031 -85.56800079345703,419.17999267578125 -131.36099243164062,404.3030090332031 C-177.1439971923828,389.4289855957031 -211.3350067138672,350.6969909667969 -220.41400146484375,303.4200134277344 C-268.1789855957031,309.3280029296875 -315.54998779296875,288.7650146484375 -343.8479919433594,249.83599853515625 C-372.1400146484375,210.91700744628906 -377.0889892578125,159.52699279785156 -356.74700927734375,115.91999816894531 C-398.81298828125,92.58200073242188 -425,48.106998443603516 -425,0 C-425,-48.106998443603516 -398.81298828125,-92.58200073242188 -356.74700927734375,-115.91999816894531 C-377.0889892578125,-159.52699279785156 -372.1400146484375,-210.91600036621094 -343.8479919433594,-249.83599853515625 C-315.54998779296875,-288.7650146484375 -268.1789855957031,-309.3280029296875 -220.41400146484375,-303.4200134277344 C-211.3350067138672,-350.6960144042969 -177.1439971923828,-389.4289855957031 -131.36099243164062,-404.3030090332031 C-85.56800079345703,-419.17999267578125 -35.13100051879883,-407.9289855957031 0,-375 C35.13100051879883,-407.9289855957031 85.56800079345703,-419.17999267578125 131.36099243164062,-404.3030090332031 C177.1439971923828,-389.4289855957031 211.3350067138672,-350.6969909667969 220.41400146484375,-303.4200134277344 C268.1789855957031,-309.3280029296875 315.54998779296875,-288.7650146484375 343.8479919433594,-249.83599853515625 C372.1400146484375,-210.91700744628906 377.0889892578125,-159.52699279785156 356.74700927734375,-115.91999816894531 C398.8139953613281,-92.58200073242188 425,-48.106998443603516 425,0z"></path></g></g><g transform="matrix(1,0,0,1,500.0989990234375,480.6050109863281)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(240,255,243)" stroke-opacity="1" stroke-width="80" d=" M-194.08700561523438,4.070000171661377 C-194.08700561523438,4.070000171661377 -67.58000183105469,130.5780029296875 -67.58000183105469,130.5780029296875 C-67.58000183105469,130.5780029296875 194.08700561523438,-130.5780029296875 194.08700561523438,-130.5780029296875"></path></g></g></g></svg>
+                <svg class="svg-tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" width="100" height="100" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="__lottie_element_62"><rect width="1000" height="1000" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_62)"><g transform="matrix(1,0,0,1,500,502.06201171875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(0.30901700258255005,0.9510565400123596,-0.9510565400123596,0.30901700258255005,0,0)"><path fill="rgb(0,167,49)" fill-opacity="1" d=" M425,0 C425,48.106998443603516 398.81298828125,92.58200073242188 356.74700927734375,115.91999816894531 C377.0889892578125,159.52699279785156 372.1400146484375,210.91600036621094 343.8479919433594,249.83599853515625 C315.54998779296875,288.7650146484375 268.1789855957031,309.3280029296875 220.41400146484375,303.4200134277344 C211.3350067138672,350.6960144042969 177.1439971923828,389.4289855957031 131.36099243164062,404.3030090332031 C85.56800079345703,419.17999267578125 35.13100051879883,407.9289855957031 0,375 C-35.13100051879883,407.9289855957031 -85.56800079345703,419.17999267578125 -131.36099243164062,404.3030090332031 C-177.1439971923828,389.4289855957031 -211.3350067138672,350.6969909667969 -220.41400146484375,303.4200134277344 C-268.1789855957031,309.3280029296875 -315.54998779296875,288.7650146484375 -343.8479919433594,249.83599853515625 C-372.1400146484375,210.91700744628906 -377.0889892578125,159.52699279785156 -356.74700927734375,115.91999816894531 C-398.81298828125,92.58200073242188 -425,48.106998443603516 -425,0 C-425,-48.106998443603516 -398.81298828125,-92.58200073242188 -356.74700927734375,-115.91999816894531 C-377.0889892578125,-159.52699279785156 -372.1400146484375,-210.91600036621094 -343.8479919433594,-249.83599853515625 C-315.54998779296875,-288.7650146484375 -268.1789855957031,-309.3280029296875 -220.41400146484375,-303.4200134277344 C-211.3350067138672,-350.6960144042969 -177.1439971923828,-389.4289855957031 -131.36099243164062,-404.3030090332031 C-85.56800079345703,-419.17999267578125 -35.13100051879883,-407.9289855957031 0,-375 C35.13100051879883,-407.9289855957031 85.56800079345703,-419.17999267578125 131.36099243164062,-404.3030090332031 C177.1439971923828,-389.4289855957031 211.3350067138672,-350.6969909667969 220.41400146484375,-303.4200134277344 C268.1789855957031,-309.3280029296875 315.54998779296875,-288.7650146484375 343.8479919433594,-249.83599853515625 C372.1400146484375,-210.91700744628906 377.0889892578125,-159.52699279785156 356.74700927734375,-115.91999816894531 C398.8139953613281,-92.58200073242188 425,-48.106998443603516 425,0z"></path></g></g><g transform="matrix(1,0,0,1,500.0989990234375,480.6050109863281)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(240,255,243)" stroke-opacity="1" stroke-width="80" d=" M-194.08700561523438,4.070000171661377 C-194.08700561523438,4.070000171661377 -67.58000183105469,130.5780029296875 -67.58000183105469,130.5780029296875 C-67.58000183105469,130.5780029296875 194.08700561523438,-130.5780029296875 194.08700561523438,-130.5780029296875"></path></g></g></g></svg>
                 
             </section>
-            <p class="p2">TICKET BOOKED SUCCESSFULLY</p>
-            <p class="p2">06 May 2025, 06:00 PM</p>
+            <p class="p2-1">TICKET BOOKED SUCCESSFULLY</p>
+            <p class="p2-2">06 May 2025, 06:00 PM</p>
 
             <section class="sec-1-4">
                 <p class="p3">Your Ticket is valid for</p>
                 <div class="timer">
                     <div class="time-unit">
-                        <div class="hours" style="font-size: 20px;">02</div>
+                        <div class="hours" style="position: relative; font-size: 31px; left: -3px; top: 1px;">02</div>
                         <span class="label">HOURS</span>
                     </div>
                     <span class="colon">:</span>
                     <div class="time-unit">
-                        <div class="minutes" style="font-size: 20px;">00</div>
+                        <div class="minutes" style="position: relative; font-size: 31px; left: -3px; top: 1px;">00</div>
                         <span class="label">MINUTES</span>
                     </div>
                     <span class="colon">:</span>
                     <div class="time-unit">
-                        <div class="seconds" style="font-size: 20px;">00</div>
+                        <div class="seconds" style="position: relative; font-size: 31px; left: -3px; top: 1px;">00</div>
                         <span class="label">SECONDS</span>
                     </div>
                 </div>
@@ -241,13 +304,16 @@
 
             <section class="sec-1-5">
                 <section class="sec-1-5-6">
-                    <p class="p3" style="font-size: 7px; ">Expected Arrivals</p>
-                    <p class="p3" style="font-size: 7px;">  <img class="refresh-icon" src="refresh.png" alt=""> Auto refreash in 2 mins</p>
+                    <p class="p3" style="font-size: 10.5px; font-weight: 600; position: relative; top: 5px;">Expected Arrivals</p>
+                    <p class="p3" style="font-size: 10.5px; top: 5px; color: hsla(0,0%,6%,.54);">  <img class="refresh-icon" src="refresh.png" alt=""> Auto refreash in 2 mins</p>
                 </section>
                 <img class="bus-icon" src="Paytm_Bus_1653645525.avif" alt="">
-                <p style="font-size: 7px; display: inline-block;"> <span style="font-weight: bold   ;">40/1-D</span> <br> Arriving in 30 min</p>
+                <p style="    font-size: 11px; color: hsla(0,0%,6%,.54);
+                display: inline-block;
+                top: 15px;
+                position: relative;"> <span style="font-weight: bold; color: black  ;">40/1-D</span> <br> Arriving in 30 min</p>
             </section>
-            <span style="background-color: #00baf2; width: 100%;  height: 5px; font-size: 1px; display: block; color: #002970;">s</span>
+            <span style="background-color: #00baf2; width: 100%;  height: 5px; font-size: 1px; display: block; color: #002970;     margin-top: -61px; position: relative;">s</span>
             <span style="background-color: #002970; width: 100%;  height: 5px; font-size: 1px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;display: block; color: #002970;">s</span>
 
         </section>
